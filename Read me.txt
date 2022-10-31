@@ -1,0 +1,4 @@
+Hello,
+I created the CRUD and the Search method
+coming to the api of geo i looked to one who retreives the location with street to calculate distance
+using longitude and latitude (i've the global idea) but the problem is all the APIs i found are ip based

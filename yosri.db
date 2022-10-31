@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Addresses] (
+    [Id]       INT            IDENTITY (1, 1) NOT NULL,
+    [Street]   NVARCHAR (MAX) NULL,
+    [House_nb] INT            NOT NULL,
+    [Zip_code] NVARCHAR (MAX) NULL,
+    [City]     NVARCHAR (MAX) NULL,
+    [Country]  NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
